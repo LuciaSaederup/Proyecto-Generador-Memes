@@ -1,0 +1,58 @@
+/*Modo claro Oscuro */
+.clara{
+    background-color: rgb(199, 39, 39);
+    color: rgb(0, 0, 0);
+}
+.oscura{
+    background-color: #000;
+    color:rgb(255, 255, 255);
+
+}
+
+
+/* ----- Aside--  el aside toma los colores del body ya que tienen las mismas clases, por eso no las declaro --*/
+aside{
+    height: 100%;
+    width: 200px;
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blanchedalmond;
+    padding: 10px 10px 10px 10px;
+    overflow: auto;
+    position:fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: -10px 10px 100px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* contenedor */
+.contenedor-meme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height:450px ;
+    background-color: rgba(56, 53, 53, 0.3);
+}
+.imag{
+    background-color: rgba(141, 118, 118, 0.3);
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.esta-oculto{
+ 
+    
+    display:none !important;
+}
+
+.imgsection{
+    display: block;
+}
+.textsection{
+    display: none;
+}
