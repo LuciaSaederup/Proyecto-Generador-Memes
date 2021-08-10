@@ -81,7 +81,6 @@ const clickBotonTexto =()=>{
        sectionText.classList.remove("esta-oculto");
     }else{
         sectionText.classList.add("esta-oculto");
-        estaOculto (
     }
 }
 textoEncabezado.addEventListener("click",clickBotonTexto);
